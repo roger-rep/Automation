@@ -1,0 +1,29 @@
+name: Bug report
+description: Report unexpected behavior in Signal to Issue
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Use fictional or sanitized examples. Never include API keys or customer data."
+  - type: textarea
+    id: observed
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Python version, OS, app version, and analysis mode
